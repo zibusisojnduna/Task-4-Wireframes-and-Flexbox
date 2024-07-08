@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: #eb500e;
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -9,10 +9,11 @@ body{
 }
 
 .nav-1{
-    background-color: orange;
+    background-color: #eb500e;
     list-style-type: none;
     width: 8cm;
     border-radius: 5%;
+    height: 20cm;
     
 }
 
@@ -23,8 +24,8 @@ body{
 }
 
 .li-1:hover{
-    background-color: white;
-    color: black;
+    background-color: #ffb200;
+    color: white;
     transition: 1s;
     cursor: pointer;
     border-radius: 15%;
@@ -39,16 +40,18 @@ body{
 }
 
 .info{
-    background-color: rgba(255, 255, 0, 0.61);
+    background-color: #ffb200;
     color: white;
     width: 20cm;
+    border-radius: 5%;
 }
 
 .artist{
-background-color: green;
+background-color: #f4003a;
 color: white;
 border-radius: 3%;
 height: 3.7cm;
+width: 18cm;
 
 }
 
@@ -59,7 +62,7 @@ height: 3.7cm;
 }
 
 .button-1:hover{
-    background-color: black;
+    background-color: #f4003a;
     color: white;
     transition: 1s;
     cursor: pointer;
@@ -70,7 +73,7 @@ height: 3.7cm;
     height: 3cm;
     border-radius: 10%;
     margin-left: 13cm;
-    margin-top: -2cm;
+    margin-top: -6cm;
     
 }
 
@@ -85,15 +88,124 @@ height: 3.7cm;
 .eminem{
     background-image: url('../res/Eminem 2.jpg');
     border-radius: 30%;
-    height: 3cm;
-    width: 3cm;
+    height: 4cm;
+    width: 4cm;
     margin-right: 2cm;
 }
 
 .taylor{
-    background-image: url('../res/Taylor\ Swift.jpg');
+    background-image: url('../res/Taylor Swift 2.jpg');
     border-radius: 30%;
+    height: 4cm;
+    width: 4cm;
+    margin-right: 2cm;
+}
+
+.post-malone{
+    background-image: url('../res/Post Malone 2.jfif');
+    border-radius: 30%;
+    height: 4cm;
+    width: 4cm;
+
+}
+
+.chart{
+    color: white;
+    display: flex;
+}
+
+.fs{
     height: 3cm;
     width: 3cm;
-    margin-right: 2cm;
+    display: flex;
+    margin-right: 7cm;
+}
+
+.img-2{
+    height: 4cm;
+    width: 4cm;
+}
+
+.img-3{
+    height: 4cm;
+    width: 4cm;
+}
+
+.ig{
+    display: flex;
+}
+
+
+.play-now{
+    background-color: #ffb300de;
+    height: 21cm;
+    color: white;
+    width: 10cm;
+    border-radius: 5%;
+
+}
+
+.profile{
+    display: flex;
+    justify-content: right;
+}
+
+.profile-img{
+    border-radius: 45%;
+    height: 1.5cm;
+    width: 1.5cm;
+}
+
+.tracks{
+    list-style-type: none;
+}
+
+.img-4{
+    height: 4cm;
+    width: 4cm;
+}
+
+.songs{
+    display: flex;
+    margin-bottom: 0.5cm;
+}
+
+.search{
+    width: 17cm;
+    
+}
+
+.live{
+    background-color: #f4003941;
+    width: 20cm;
+    display: flex;
+
+}
+
+.img-5{
+height: 2cm;
+width: 2cm;
+border-radius: 10%;
+}
+
+.songs:hover{
+    background-color: #eb500e;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.play-btn{
+    background-color: #ffb200;
+    height: 2cm;
+    width: 2cm;
+    border-radius: 50%;
+    margin-left: 6cm;
+}
+
+.play-btn:hover{
+    background-color: #eb500e;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
 }

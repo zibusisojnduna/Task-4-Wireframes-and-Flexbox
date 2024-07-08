@@ -51,7 +51,7 @@ function App() {
         <h1>Not Like Us</h1>
         <button className='button-1'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
   <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
-</svg>Play Now</button>
+</svg>Listen Now</button>
 <img src='\res\Kendrick Lamar.jfif' className='img-1'></img>
        </div>
        <br></br>
@@ -67,12 +67,98 @@ function App() {
           <br></br>
           <br></br>
           <div className='taylor'>
+          <h4>Playlist of<br></br> the day</h4>
+
+          <h4>28 Tracks</h4>
+          </div>
+
+          <div className='post-malone'>
+            <h4>Something<br></br>New</h4>
+
+            <h4>37 Tracks</h4>
 
           </div>
+
+          
+
         </div>
+
+        <h4>You may also like</h4>
+        <div className='chart'>
+          <div className='fs'>
+            <img src='\res\Fatboy Slim.jpg' className='img-2'></img><br></br>
+            <h4>The Rockarfeller Skank<br></br><p>Fatboy Slim</p><p>3:26</p></h4> 
+          </div>
+
+          <div className='ig'>
+            <img src='res\Imagine Dragons Cover.jfif' className='img-3'></img>
+            <h4>Believer<br></br><p>Imagine Dragons</p><p>3:24</p></h4>
+          </div>
+
+
+        </div>
+        
+        <div className='live'>
+            <img src='\res\beyonce-formation-tracklist-1-600x600.jpg' className='img-5'></img>
+            <h4>Formation<br></br><p>Beyonce</p></h4>
+            <div>
+
+            <br>
+            
+            </br>
+
+            
+              <button className='play-btn'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
+  <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
+</svg></button>
+            </div>
+          </div>
+
       </div>
     </section>
+
+    <section>
+      
+      <div className='play-now'>
+        <div className='profile'>
+          <h4>James P.</h4><img src='res\dan-stock-19711-1.jpg' className='profile-img'></img>
+        </div>
+
+        <div className='tracks'>
+          <h4>Now playing</h4>
+      
+          <div className='songs'>
+           <img src='\res\beyonce-formation-tracklist-1-600x600.jpg' className='img-4'></img>
+           <h4>Formation<br></br><p>Beyonce</p><p>4:48</p></h4> 
+          </div>
+          
+          <div className='songs'>
+            <img src='\res\Led Zepplin Cover.jpg' className='img-4'></img>
+            <h4>Dazed and Confused<br></br><p>Led Zepplin</p><p>6:27</p></h4>
+          </div>
+
+          <div className='songs'>
+            <img src='\res\Black Eyed Peas.jfif' className='img-4'></img>
+            <h4>Meet Me Halfway<br></br><p>Black Eyed Peas</p><p>4:45</p></h4>
+          </div>
+
+          <div className='songs'>
+            <img src='\res\Eminem Albm 1.jfif'className='img-4'></img>
+            <h4>Business<br></br><p>Eminem</p><p>4:12</p></h4>
+          </div>
+          
+          
+        </div>
+
+        
+      </div>
+
+
+        
+    </section>
     </main>
+
+    
 
     
 
