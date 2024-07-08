@@ -1,0 +1,99 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.main{
+    display: flex;
+}
+
+.nav-1{
+    background-color: orange;
+    list-style-type: none;
+    width: 8cm;
+    border-radius: 5%;
+    
+}
+
+.li-1{
+    display: block;
+    padding: 0.5cm;
+    color: white;
+}
+
+.li-1:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 15%;
+    
+}
+
+.heading{
+    display: block;
+    padding: 0.5cm;
+    color: white;
+    
+}
+
+.info{
+    background-color: rgba(255, 255, 0, 0.61);
+    color: white;
+    width: 20cm;
+}
+
+.artist{
+background-color: green;
+color: white;
+border-radius: 3%;
+height: 3.7cm;
+
+}
+
+.button-1{
+    height: 1cm;
+    width: 3cm;
+    border-radius: 30%;
+}
+
+.button-1:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+    border-color: white;
+}
+
+.img-1{
+    height: 3cm;
+    border-radius: 10%;
+    margin-left: 13cm;
+    margin-top: -2cm;
+    
+}
+
+.albums{
+    color: white;
+    height: fit-content;
+    display: flex;
+    
+    
+}
+
+.eminem{
+    background-image: url('../res/Eminem 2.jpg');
+    border-radius: 30%;
+    height: 3cm;
+    width: 3cm;
+    margin-right: 2cm;
+}
+
+.taylor{
+    background-image: url('../res/Taylor\ Swift.jpg');
+    border-radius: 30%;
+    height: 3cm;
+    width: 3cm;
+    margin-right: 2cm;
+}
