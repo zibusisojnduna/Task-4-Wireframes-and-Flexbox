@@ -19,8 +19,8 @@ body{
 
 .li-1{
     display: block;
-    padding: 0.5cm;
     color: white;
+    padding: 0.4cm;
 }
 
 .li-1:hover{
@@ -28,7 +28,7 @@ body{
     color: white;
     transition: 1s;
     cursor: pointer;
-    border-radius: 15%;
+    border-radius: 5px;
     
 }
 
@@ -49,21 +49,23 @@ body{
 .artist{
 background-color: #f4003a;
 color: white;
-border-radius: 3%;
+border-radius: 10px;
 height: 3.7cm;
-width: 18cm;
-
+width: 16.5cm;
+margin-left: 1cm;
 }
 
 .button-1{
     height: 1cm;
     width: 3cm;
-    border-radius: 30%;
+    border-radius: 10px;
+    background-color:#f4003a;
+    color: white;
 }
 
 .button-1:hover{
-    background-color: #f4003a;
-    color: white;
+    background-color: #eb500e;
+    color:black;
     transition: 1s;
     cursor: pointer;
     border-color: white;
@@ -140,7 +142,7 @@ width: 18cm;
     background-color: #ffb300de;
     height: 21cm;
     color: white;
-    width: 10cm;
+    width: 7.3cm;
     border-radius: 5%;
 
 }
@@ -167,11 +169,13 @@ width: 18cm;
 
 .songs{
     display: flex;
-    margin-bottom: 0.5cm;
+  
 }
 
 .search{
     width: 17cm;
+    margin-left: 1.2cm;
+    border-radius: 10px;
     
 }
 
@@ -206,6 +210,18 @@ border-radius: 10%;
 .play-btn:hover{
     background-color: #eb500e;
     color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.search-icon:hover{
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.list:hover{
+    color: black;
     transition: 1s;
     cursor: pointer;
 }

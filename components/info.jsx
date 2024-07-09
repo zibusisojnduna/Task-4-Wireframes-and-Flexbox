@@ -3,10 +3,12 @@ import PlayButton from "./playbutton"
 function Info(){
     return(
         <section className='info'>
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" color='black'>
+   
+      <input type='text' placeholder='Search' className='search'></input>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="search-icon" viewBox="0 0 16 16" color='black'>
   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
 </svg>
-      <input type='text' placeholder='Search' className='search'></input>
+
       <div>
        <h1>Main</h1> 
        <div className='artist'>
@@ -17,6 +19,7 @@ function Info(){
 </svg>Listen Now</button>
 <img src='\res\Kendrick Lamar.jfif' className='img-1'></img>
        </div>
+       
        <br></br>
         <h4>Playlists for you</h4>
         <div className='albums'>
@@ -50,7 +53,7 @@ function Info(){
         <div className='chart'>
           <div className='fs'>
             <img src='\res\Fatboy Slim.jpg' className='img-2'></img><br></br>
-            <h4>The Rockarfeller Skank<br></br><p>Fatboy Slim</p><p>3:26</p></h4> 
+            <h4>The Rockerfeller Skank<br></br><p>Fatboy Slim</p><p>3:26</p></h4> 
           </div>
 
           <div className='ig'>
