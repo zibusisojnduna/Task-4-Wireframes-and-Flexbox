@@ -16,8 +16,7 @@ function App() {
     
     <main className='main'>
      <ul><SideNav/></ul>
-    <section><Info/><PlayButton counter={counter}/></section>
-    
+    <section><Info/></section>
     <section><PlayNow/></section>
     </main>
 
