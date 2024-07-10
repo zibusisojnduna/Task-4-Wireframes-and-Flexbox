@@ -7,7 +7,7 @@ function SideNav(){
     
           <li className='li-1'>Main</li>
           <li className='li-1'>Radio</li>
-          <li className='li-1'>Podcats</li>
+          <li className='li-1'>Podcasts</li>
           <li className='li-1'>Books</li>
           <br></br>
           
